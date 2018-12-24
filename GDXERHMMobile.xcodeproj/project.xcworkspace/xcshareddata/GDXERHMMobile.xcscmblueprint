@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6DDAD26E39BE2B241213A62D5B83C9B4AC8F4C74",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6DDAD26E39BE2B241213A62D5B83C9B4AC8F4C74" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6DDAD26E39BE2B241213A62D5B83C9B4AC8F4C74" : 0,
+    "BC3CB7C7-54FE-4197-AF42-760BB3BE21B5" : 0,
+    "CC9E6813401FC20BF860D9A1BE28999344063381" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2298454F-BC8F-4C1B-9EB1-35716F7A791E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6DDAD26E39BE2B241213A62D5B83C9B4AC8F4C74" : "GDXERHMMobileXiErHuan",
+    "BC3CB7C7-54FE-4197-AF42-760BB3BE21B5" : "GDXERHMMobile",
+    "CC9E6813401FC20BF860D9A1BE28999344063381" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GDXERHMMobile",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GDXERHMMobile.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.edaoyou.com\/edaoyou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DDAD26E39BE2B241213A62D5B83C9B4AC8F4C74"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.edaoyou.com\/edaoyou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DDAD26E39BE2B241213A62D5B83C9B4AC8F4C74"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.edaoyou.com\/edaoyou",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC3CB7C7-54FE-4197-AF42-760BB3BE21B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.243\/guizhouluzheng.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CC9E6813401FC20BF860D9A1BE28999344063381"
+    }
+  ]
+}
