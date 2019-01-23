@@ -399,6 +399,7 @@
 		80D958F118086889009D3937 /* simhei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 339BC5B916BF5914002AE80F /* simhei.ttf */; };
 		80D958F318086889009D3937 /* MatchLaw.plist in Resources */ = {isa = PBXBuildFile; fileRef = 677B335A1793D1930066BE89 /* MatchLaw.plist */; };
 		80D958F418086889009D3937 /* DocTemplates in Resources */ = {isa = PBXBuildFile; fileRef = 9BA75E7017CDB11E0003ED34 /* DocTemplates */; };
+		846A9B4021F85F2D008CE62A /* LCNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A9B3E21F85F2D008CE62A /* LCNetworking.m */; };
 		9B64645B18164B0F00569AE3 /* PermitProveSyncSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B64645918164B0F00569AE3 /* PermitProveSyncSettingViewController.m */; };
 		9B64645C18164B0F00569AE3 /* PermitProveSyncSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B64645A18164B0F00569AE3 /* PermitProveSyncSettingViewController.xib */; };
 		9B6F004617D5F7AF00ACD81A /* CaseParkingNodePrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F004517D5F7AE00ACD81A /* CaseParkingNodePrintViewController.m */; };
@@ -812,6 +813,8 @@
 		8037A9A118086D3400884C52 /* ProveInfoTable.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ProveInfoTable.xml; sourceTree = "<group>"; };
 		8037A9A218086D3400884C52 /* ServiceReceiptTable.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ServiceReceiptTable.xml; sourceTree = "<group>"; };
 		80D958F818086889009D3937 /* JZMMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZMMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846A9B3E21F85F2D008CE62A /* LCNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCNetworking.m; sourceTree = "<group>"; };
+		846A9B3F21F85F2D008CE62A /* LCNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCNetworking.h; sourceTree = "<group>"; };
 		9B180DC517D6D0FC00A9A082 /* GRMustache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustache.h; sourceTree = "<group>"; };
 		9B180DC617D6D0FC00A9A082 /* GRMustacheAvailabilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustacheAvailabilityMacros.h; sourceTree = "<group>"; };
 		9B180DC717D6D0FC00A9A082 /* GRMustacheConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMustacheConfiguration.h; sourceTree = "<group>"; };
@@ -1273,6 +1276,8 @@
 				33A5276714F4E5BD009BC91E /* Views Controller */,
 				33A5275914F4E3E6009BC91E /* AppDelegate.h */,
 				33A5275A14F4E3E6009BC91E /* AppDelegate.m */,
+				846A9B3F21F85F2D008CE62A /* LCNetworking.h */,
+				846A9B3E21F85F2D008CE62A /* LCNetworking.m */,
 				33A6B15B16523D7400E6DF90 /* AGAlertViewWithProgressbar.h */,
 				33A6B15C16523D7400E6DF90 /* AGAlertViewWithProgressbar.m */,
 				3365B34C169AAF8200E9D039 /* NSAttributedString+DrawMethod.h */,
@@ -2039,6 +2044,7 @@
 				33ADC4C4165495B7007E3429 /* MatchLawDetails.m in Sources */,
 				33ADC4D416549B05007E3429 /* InitLaws.m in Sources */,
 				33ADC4DD16549D16007E3429 /* LawbreakingAction.m in Sources */,
+				846A9B4021F85F2D008CE62A /* LCNetworking.m in Sources */,
 				33ADC4E01654A6D0007E3429 /* RoadWayClosed.m in Sources */,
 				33ADC4F51654EBF7007E3429 /* DataUpLoad.m in Sources */,
 				B30D427C165530D1009F62A2 /* Task.m in Sources */,
