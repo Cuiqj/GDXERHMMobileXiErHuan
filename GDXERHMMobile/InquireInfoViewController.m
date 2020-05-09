@@ -234,11 +234,21 @@
         [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm"];
         self.textInquireDate.text=[dateFormatter stringFromDate:caseInquire.date_inquired];
     } else {
+        NSString *currentUserID=[[NSUserDefaults standardUserDefaults] stringForKey:USERKEY];
+        NSString *currentUserName=[[UserInfo userInfoForUserID:currentUserID] valueForKey:@"username"];
+        NSArray *inspectorArray = [[NSUserDefaults standardUserDefaults] objectForKey:INSPECTORARRAYKEY];
+        NSString * namenum;
+        if (inspectorArray.count < 1) {
+            namenum = [UserInfo exelawidofuserInfoForusername:currentUserName];
+        } else {
+            NSString * inspectorName = [inspectorArray objectAtIndex:0];
+            namenum = [UserInfo exelawidofuserInfoForusername: inspectorName];
+        }
         self.textParty.text       = aAnswererName;
 //        Citizen *citizen   = [Citizen citizenByCaseID:self.caseID];
-        NSString *currentUserID=[[NSUserDefaults standardUserDefaults] stringForKey:USERKEY];
+//        NSString *currentUserID=[[NSUserDefaults standardUserDefaults] stringForKey:USERKEY];
         NSString * organizationName = [[OrgInfo orgInfoForOrgID:[UserInfo userInfoForUserID:currentUserID].organization_id] valueForKey:@"orgname"];
-        NSString * text = [NSString stringWithFormat:@"%@%@%@",@"问：你好，我们是",organizationName,@"的路政员，向你了解一些情况，希望你如实回答，你对你的回答是要负法律责任，你明白吗？\n答：明白。" ];
+        NSString * text = [NSString stringWithFormat:@"%@%@%@%@%@",@"问：你好，我们是",organizationName,@"的路政员，请看，这是我的执法证件，执法证件号码是",namenum,@",向你了解一些情况，希望你如实回答，你对你的回答是要负法律责任，你明白吗？\n答：明白。" ];
         self.inquireTextView.text = text;
 //        self.inquireTextView.text = @"问：您好，我们是广东省公路管理局西二环高速公路路政大队的路政员，向你了解一些情况，希望你如实回答，你对你的回答是要负法律责任，你明白吗？\n答：明白。";
         

@@ -391,12 +391,12 @@ typedef enum {
         DeformationInfoViewController *diVC=segue.destinationViewController;
         diVC.caseID=self.caseID;
     } else if ([segueIdentifier isEqualToString:@"toInquireInfoEditor"]) {
-        InquireInfoViewController *iiVC=segue.destinationViewController;
+        InquireInfoViewController * iiVC=segue.destinationViewController;
         iiVC.caseID=self.caseID;
         iiVC.delegate=self;
         iiVC.answererName=self.inquireInfoBriefVC.textParty.text;
     } else if ([segueIdentifier isEqualToString:@"toPaintEditor"]) {
-        CasePaintViewController *cpVC=segue.destinationViewController;
+        CasePaintViewController * cpVC=segue.destinationViewController;
         cpVC.delegate = self;
         cpVC.caseID=self.caseID;
     }

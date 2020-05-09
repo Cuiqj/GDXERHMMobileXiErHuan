@@ -1807,7 +1807,7 @@
 				LastUpgradeCheck = 0900;
 				TargetAttributes = {
 					33A5274514F4E3E6009BC91E = {
-						DevelopmentTeam = 27NSK65R5P;
+						DevelopmentTeam = 97S66GFTED;
 						ProvisioningStyle = Manual;
 					};
 				};
@@ -2394,7 +2394,7 @@
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Junwen Pu (5PAY9VJ89B)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 27NSK65R5P;
+				DEVELOPMENT_TEAM = 97S66GFTED;
 				ENABLE_BITCODE = NO;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2416,9 +2416,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adam.XiErHuan;
 				PRODUCT_NAME = GDXERHMMobile;
-				PROVISIONING_PROFILE = "9343f4d1-5644-4449-919d-f677981defd2";
+				PROVISIONING_PROFILE = "5a7c86af-dd10-458b-94bc-8678c0839bbf";
 				"PROVISIONING_PROFILE[sdk=*]" = "68ce96c2-3e97-4f60-874b-bf3fdb320bce";
-				PROVISIONING_PROFILE_SPECIFIER = AllProjectCanUsedevelopment;
+				PROVISIONING_PROFILE_SPECIFIER = AllProjectDevelopment_zeng_zhh;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -2430,7 +2430,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Junwen Pu (5PAY9VJ89B)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 27NSK65R5P;
+				DEVELOPMENT_TEAM = 97S66GFTED;
 				ENABLE_BITCODE = NO;
 				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2451,9 +2451,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adam.XiErHuan;
 				PRODUCT_NAME = GDXERHMMobile;
-				PROVISIONING_PROFILE = "8bdf704f-d428-4cfe-ba34-5b1834d9f2f7";
+				PROVISIONING_PROFILE = "49c82ff6-a472-472c-a5cf-ead3e2a2c2de";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "68ce96c2-3e97-4f60-874b-bf3fdb320bce";
-				PROVISIONING_PROFILE_SPECIFIER = AllProjectCanDistribution;
+				PROVISIONING_PROFILE_SPECIFIER = AllProjectDistribution_zeng_zhh;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};

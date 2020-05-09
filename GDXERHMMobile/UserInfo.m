@@ -64,4 +64,19 @@
     NSString *orgName = [org orgname]?[org orgname]:@"";
     return [NSString stringWithFormat:@"%@%@",orgName,duty];
 }
+
++ (NSString *)exelawidofuserInfoForusername:(NSString *)username{
+    NSManagedObjectContext *context=[[AppDelegate App] managedObjectContext];
+    NSEntityDescription *entity=[NSEntityDescription entityForName:NSStringFromClass([self class]) inManagedObjectContext:context];
+    NSFetchRequest *fetchRequest=[[NSFetchRequest alloc] init];
+    [fetchRequest setEntity:entity];
+    [fetchRequest setPredicate:[NSPredicate predicateWithFormat:@"username == %@",username]];
+    NSArray *temp=[context executeFetchRequest:fetchRequest error:nil];
+    if (temp.count>0) {
+        return [[temp lastObject] valueForKey:@"exelawid"];
+    } else {
+        return nil;
+    }
+}
+
 @end

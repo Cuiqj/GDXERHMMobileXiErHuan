@@ -30,4 +30,8 @@
 + (NSArray *)allUserInfo;
 
 + (NSString *)orgAndDutyForUserName:(NSString *)username;
+
+//通过名字来找出执法证号
++ (NSString *)exelawidofuserInfoForusername:(NSString *)username;
+
 @end
