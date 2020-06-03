@@ -45,7 +45,7 @@
 
 
 #define VERSION_NAME @"西二环"
-#define VERSION_TIME @"2020年05月09日"
+#define VERSION_TIME @"2020年06月03日"
 
 
 /*

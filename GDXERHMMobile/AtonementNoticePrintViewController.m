@@ -427,6 +427,11 @@
         caseDescription = NSStringNilIsBad(self.textViewCaseDesc.text);
         NSArray * temp=[caseDescription componentsSeparatedByString:@"分"];
         caseDescription=[temp objectAtIndex:1];
+        if(temp.count>2){
+            for (int i = 2; i<temp.count; i++) {
+                caseDescription = [NSString stringWithFormat:@"%@分%@",caseDescription,[temp objectAtIndex:i]];
+            }
+        }
             
         caseEvidence = NSStringNilIsBad(notice.witness);
         payReason = NSStringNilIsBad(notice.pay_reason);
